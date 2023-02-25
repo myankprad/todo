@@ -120,19 +120,22 @@ ol li{
   justify-content: left;
   align-items: center;
 }
-.todo_style .fa-times{
-  width: 20px;
-  height: 20px;
+.icon{
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #533676;
   border-radius: 50%;
-  margin: 0 15px 0 35px;
-  color: aliceblue;
+  margin: 0 25px 0 25px;
+  padding: 5px;
+  color: beige;
   box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
 
 }
-.fa-times:hover{
-  background-color: crimson;
+.icon:hover{
+  background-color: beige;
+  border-radius: 1px solid red;
+  color: red;
 }
